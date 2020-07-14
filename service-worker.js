@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NASA-Apod-React-App/precache-manifest.21b4215d3e5aab391a09cf9147524478.js"
+  "/NASA-Apod-React-App/precache-manifest.867f8fba66c23fc07d685a8689bcf420.js"
 );
 
 self.addEventListener('message', (event) => {
