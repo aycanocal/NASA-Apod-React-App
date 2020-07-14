@@ -7,13 +7,13 @@ Title of the picture, picture itself and explanation of the picture is shown.
 # Installation and Setup
 
 Clone repository:
-$ git clone https://github.com/aycanocal/NASA-Apod-React-App.git
+```$ git clone https://github.com/aycanocal/NASA-Apod-React-App.git```
 
 You need to have npm and nodejs globally installed on your machine.
 
 Install dependencies:
-$ npm install
+```$ npm install```
 
 Run app:
-$ npm start
+```$ npm start```
 
