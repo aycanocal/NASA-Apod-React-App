@@ -8,7 +8,7 @@ function Photo({ photo }) {
     <div>
       <h1>{photo.title}</h1>
 
-      {media_type == "image" ? (
+      {media_type === "image" ? (
         <div>
           <img src={photo.url} alt={photo.title} />
         </div>
