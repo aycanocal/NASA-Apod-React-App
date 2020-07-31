@@ -10,11 +10,11 @@ function Photo({ photo }) {
 
       {media_type === "image" ? (
         <div>
-          <img src={photo.url} alt={photo.title} />
+          <img src={photo.url} alt={photo.title} className="responsive" />
         </div>
       ) : (
-        <div className="video">
-          <ReactPlayer url={photo.url} />
+        <div className="player-wrapper">
+          <ReactPlayer url={photo.url} width="100%" height="100%" />
         </div>
       )}
 

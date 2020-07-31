@@ -4,10 +4,14 @@ import "react-datepicker/dist/react-datepicker.css";
 
 function DateInput({ changeDate, date }) {
   return (
-    <div class="date">
+    <div className="date">
       Select a Date:
       <br />
-      <DatePicker selected={date} onChange={changeDate} />
+      <DatePicker
+        selected={date}
+        onChange={changeDate}
+        className="datepicker"
+      />
     </div>
   );
 }
