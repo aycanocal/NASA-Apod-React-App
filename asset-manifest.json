@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/NASA-Apod-React-App/static/css/main.86d9f089.chunk.css",
-    "main.js": "/NASA-Apod-React-App/static/js/main.14241c32.chunk.js",
-    "main.js.map": "/NASA-Apod-React-App/static/js/main.14241c32.chunk.js.map",
+    "main.css": "/NASA-Apod-React-App/static/css/main.39a49adb.chunk.css",
+    "main.js": "/NASA-Apod-React-App/static/js/main.b7282dbe.chunk.js",
+    "main.js.map": "/NASA-Apod-React-App/static/js/main.b7282dbe.chunk.js.map",
     "runtime-main.js": "/NASA-Apod-React-App/static/js/runtime-main.1e3378fb.js",
     "runtime-main.js.map": "/NASA-Apod-React-App/static/js/runtime-main.1e3378fb.js.map",
     "static/css/2.25ff2e5b.chunk.css": "/NASA-Apod-React-App/static/css/2.25ff2e5b.chunk.css",
-    "static/js/2.6544134c.chunk.js": "/NASA-Apod-React-App/static/js/2.6544134c.chunk.js",
-    "static/js/2.6544134c.chunk.js.map": "/NASA-Apod-React-App/static/js/2.6544134c.chunk.js.map",
+    "static/js/2.fdfaac9d.chunk.js": "/NASA-Apod-React-App/static/js/2.fdfaac9d.chunk.js",
+    "static/js/2.fdfaac9d.chunk.js.map": "/NASA-Apod-React-App/static/js/2.fdfaac9d.chunk.js.map",
     "index.html": "/NASA-Apod-React-App/index.html",
-    "precache-manifest.867f8fba66c23fc07d685a8689bcf420.js": "/NASA-Apod-React-App/precache-manifest.867f8fba66c23fc07d685a8689bcf420.js",
+    "precache-manifest.d80db8c0ba721e2d2101c98f9c052355.js": "/NASA-Apod-React-App/precache-manifest.d80db8c0ba721e2d2101c98f9c052355.js",
     "service-worker.js": "/NASA-Apod-React-App/service-worker.js",
     "static/css/2.25ff2e5b.chunk.css.map": "/NASA-Apod-React-App/static/css/2.25ff2e5b.chunk.css.map",
-    "static/css/main.86d9f089.chunk.css.map": "/NASA-Apod-React-App/static/css/main.86d9f089.chunk.css.map",
-    "static/js/2.6544134c.chunk.js.LICENSE.txt": "/NASA-Apod-React-App/static/js/2.6544134c.chunk.js.LICENSE.txt"
+    "static/css/main.39a49adb.chunk.css.map": "/NASA-Apod-React-App/static/css/main.39a49adb.chunk.css.map",
+    "static/js/2.fdfaac9d.chunk.js.LICENSE.txt": "/NASA-Apod-React-App/static/js/2.fdfaac9d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1e3378fb.js",
     "static/css/2.25ff2e5b.chunk.css",
-    "static/js/2.6544134c.chunk.js",
-    "static/css/main.86d9f089.chunk.css",
-    "static/js/main.14241c32.chunk.js"
+    "static/js/2.fdfaac9d.chunk.js",
+    "static/css/main.39a49adb.chunk.css",
+    "static/js/main.b7282dbe.chunk.js"
   ]
 }
