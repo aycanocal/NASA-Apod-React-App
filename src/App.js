@@ -16,7 +16,11 @@ function App() {
   useEffect(() => {
     fetch(`${api.base}?&api_key=${api.key}`)
       .then((res) => res.json())
-      .then((res) => setPhoto(res));
+      .catch((err) => alert(err))
+      .then((res) => {
+        if (res.media_type !== undefined) setPhoto(res);
+        else alert(res.msg);
+      });
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -24,9 +28,12 @@ function App() {
   const getPhoto = (date) => {
     fetch(`${api.base}?&date=${date}&api_key=${api.key}`)
       .then((res) => res.json())
-      .then((res) => setPhoto(res));
+      .catch((err) => alert(err))
+      .then((res) => {
+        if (res.media_type !== undefined) setPhoto(res);
+        else alert(res.msg);
+      });
   };
-
   const formatDate = (date) => {
     let myDate =
       date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
