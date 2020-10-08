@@ -31,7 +31,12 @@ function App() {
       .catch((err) => alert(err))
       .then((res) => {
         if (res.media_type !== undefined) setPhoto(res);
-        else alert(res.msg);
+        else {
+          alert(res.msg);
+          setPhoto(
+            "https://coolbackgrounds.io/images/backgrounds/black/black-contour-f41038db.svg"
+          );
+        }
       });
   };
   const formatDate = (date) => {
