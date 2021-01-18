@@ -10,6 +10,7 @@ function DateInput({ changeDate, date }) {
       <DatePicker
         selected={date}
         onChange={changeDate}
+        maxDate={new Date()}
         className="datepicker"
       />
     </div>
